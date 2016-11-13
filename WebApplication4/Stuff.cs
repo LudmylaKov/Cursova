@@ -17,7 +17,26 @@ namespace WebApplication4
         public string Languages { get; set; }
         public int WorkHoures { get; set; }
     }
+    public class AllStuff
+    {
+        private static AllStuff repository = new AllStuff(); //delete later?
+        private List<Stuff> stuff = new List<Stuff>();
 
+        public static AllStuff GetRepository()
+        {
+            return repository;
+        }
+
+        public IEnumerable<Stuff> GetAll()
+        {
+            return stuff;
+        }
+
+        public void AddLecturer(Stuff lect)
+        {
+            stuff.Add(lect);
+        }
+    }
     public class Subject
     {
         public string SubjectName { get; set; }

@@ -20,7 +20,7 @@
         
         <div class="container" style="text-align:center;">
             <div class="row">
-            <div class="col-md-4"> <h3 style="width: 236px; margin-bottom: 8px">Login</h3></div>
+            <div class="col-md-4"> Login</div>
             <div class="col-md-4">
                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
 
@@ -32,6 +32,8 @@
                    
             
         </div>
+       
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
        
     </form>
 </body>

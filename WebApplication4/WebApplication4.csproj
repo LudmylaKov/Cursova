@@ -95,13 +95,31 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-responsive.css" />
+    <Content Include="Content\bootstrap-responsive.min.css" />
+    <Content Include="Content\bootstrap-sortable.css" />
+    <Content Include="Content\bootstrap-table.css" />
+    <Content Include="Content\images\glyphicons-halflings-white.png" />
+    <Content Include="Content\images\glyphicons-halflings.png" />
     <Content Include="Lecturers.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="scripts\bootstrap-sortable.js" />
+    <Content Include="scripts\bootstrap-table.js" />
+    <Content Include="scripts\jquery-1.10.2.js" />
+    <Content Include="scripts\jquery-1.10.2.min.js" />
+    <Content Include="scripts\jquery.tinysort.js" />
+    <Content Include="scripts\moment-with-langs.js" />
+    <Content Include="scripts\moment-with-langs.min.js" />
+    <Content Include="scripts\moment.js" />
+    <Content Include="scripts\moment.min.js" />
+    <Content Include="scripts\tinysort.charorder.js" />
+    <Content Include="scripts\tinysort.js" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
-    <Content Include="scripts\jquery-1.9.1.min.map" />
+    <Content Include="scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -126,11 +144,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
-    <Content Include="scripts\jquery-1.9.1.js" />
-    <Content Include="scripts\jquery-1.9.1.min.js" />
+    <Content Include="Styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
