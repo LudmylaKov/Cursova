@@ -10,7 +10,7 @@
 namespace WebApplication4 {
     
     
-    public partial class Lecturers {
+    public partial class Subject1 {
         
         /// <summary>
         /// form1 control.
